@@ -1,0 +1,32 @@
+syntax = "proto3";
+
+import "google/protobuf/timestamp.proto";
+
+option java_package = "com.rpc";
+
+message ChatMsg {
+  User from = 1;  // sender
+  string msg = 2; // content
+}
+
+message ChatMsgFromServer {
+  google.protobuf.Timestamp timestamp = 1;
+  ChatMsg newMsg = 2;
+}
+
+message UnreadMsg {
+  repeated ChatMsgFromServer unreadMsg = 1; // multiple messages
+}
+
+service MsgService {
+  rpc createUser (stream User) returns(stream ChatMsgFromServer); // assign a user
+  rpc sendMsg (stream ChatMsg) returns (stream ChatMsgFromServer); // send message
+  rpc getUnreadMsg (stream User) returns (stream UnreadMsg); // get all unread message
+}
+
+message User {
+  string name = 1;
+  int64 groupId = 2;
+  google.protobuf.Timestamp lastLogin = 3;
+}
+

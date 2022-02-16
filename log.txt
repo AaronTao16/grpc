@@ -1,0 +1,26 @@
+Starting server on port 7000
+Server started!
+Welcome Alice, let's start a group Msg! -- GroupID: 1
+Alice's screen: Alice: hello    ---sended---     08:02:52 2022-02-15
+Alice's screen: Alice: Alice is online    ---sended---     08:02:52 2022-02-15
+wait Bob and Chad ......
+Welcome Bob, let's start a group Msg! -- GroupID: 1
+Bob's screen: Alice: hello   08:02:52 2022-02-15
+Bob's screen: Alice: Alice is online   08:02:52 2022-02-15
+Bob's screen: Bob: hello    ---sended---     08:03:05 2022-02-15
+Bob's screen: Bob: Bob is online    ---sended---     08:03:05 2022-02-15
+Welcome Alice, let's start a group Msg! -- GroupID: 1
+Alice's screen: You: hello   08:02:52 2022-02-15
+Alice's screen: You: Alice is online   08:02:52 2022-02-15
+Alice's screen: Bob: hello   08:03:05 2022-02-15
+Alice's screen: Bob: Bob is online   08:03:05 2022-02-15
+Welcome Chad, let's start a group Msg! -- GroupID: 1
+Chad's screen: Alice: hello   08:02:52 2022-02-15
+Chad's screen: Alice: Alice is online   08:02:52 2022-02-15
+Chad's screen: Bob: hello   08:03:05 2022-02-15
+Chad's screen: Bob: Bob is online   08:03:05 2022-02-15
+Chad's screen: Chad: hello    ---sended---     08:03:18 2022-02-15
+Chad's screen: Chad: Chad is online    ---sended---     08:03:18 2022-02-15
+Welcome Doug, let's start a group Msg! -- GroupID: 1644955401
+Doug's screen: Doug: hello    ---sended---     08:03:25 2022-02-15
+Doug's screen: Doug: Doug is online    ---sended---     08:03:25 2022-02-15
